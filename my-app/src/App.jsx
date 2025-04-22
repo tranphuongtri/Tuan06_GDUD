@@ -3,6 +3,7 @@ import Navbar from "./MyComponents/Navbar";
 import ProfileHeader from "./MyComponents/ProfileHeader";
 import RecipeTabs from "./MyComponents/RecipeTabs";
 import RecipeGrid from "./MyComponents/RecipeGrid";
+import Pagination from "./MyComponents/Pagination";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -17,7 +18,7 @@ export default function App() {
         <ProfileHeader />
         <RecipeTabs />
         <RecipeGrid />
-        {/* <Pagination /> */}
+        <Pagination />
       </main>
       {/* <Footer /> */}
     </div>
