@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./MyComponents/Navbar";
+import ProfileHeader from "./MyComponents/ProfileHeader";
 export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
@@ -11,7 +12,7 @@ export default function App() {
           <span className="text-pink-500">Your Recipe Box</span>
         </div>
 
-        {/* <ProfileHeader /> */}
+        <ProfileHeader />
         {/* <RecipeTabs />
         <RecipeGrid />
         <Pagination /> */}
